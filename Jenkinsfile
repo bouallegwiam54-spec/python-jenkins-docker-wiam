@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupérer le code depuis GitHub (correct repository)
-                git branch: 'main', url: 'https://github.com/bouallegwiam54-spec/python-jenkins-docker-wiam.git'
+                git 'https://github.com/bouallegwiam54-spec/python-jenkins-docker.git'
             }
         }
 
